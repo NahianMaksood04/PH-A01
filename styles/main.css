@@ -44,6 +44,7 @@ body {
 	background-color: rgba(77, 71, 255, 0.1);
 	padding: 50px 80px;
 	border-radius: 10px;
+	text-align: center;
 }
 
 #stats {
@@ -76,7 +77,14 @@ body {
 	color: rgba(0, 0, 0, 0.5);
 }
 
-#review {
+#third {
+	margin-left: 151px;
+	margin-right: 149px;
+	max-width: 1140px;
+	max-height: 342px;
+}
+
+.review {
 	background-color: rgba(255, 255, 255, 0.5);
 	border: #f2eded solid 1px;
 	border-radius: 14px;
@@ -86,7 +94,7 @@ body {
 	align-items: flex-start;
 	padding: 24px 24px;
 	width: 366.67px;
-	height: 243px;
+	max-height: 243px;
 	gap: 24px;
 }
 
@@ -96,19 +104,22 @@ body {
 	align-items: center;
 	justify-content: space-around;
 	margin-top: 50px;
+	gap: 20px;
 }
 
 #reviewer {
 	display: flex;
 	flex-direction: row;
+	align-items: center;
+	gap: 12px;
 }
 
 h1 {
 	font-size: 24px;
-	font-weight: 600px;
+	font-weight: 500;
 	font-family: "Inter", sans-serif;
 	color: #1e1e1e;
-	/* line-height: 140%; */
+	line-height: 140%;
 }
 
 #review-text {
@@ -120,16 +131,23 @@ h1 {
 
 #reviewer-text {
 	font-size: 16px;
-	font-weight: 500px;
+	font-weight: 500;
 	font-family: "Inter", sans-serif;
 	color: #757575;
 }
 
-#third {
-	margin-left: 151px;
-	margin-right: 149px;
-	max-width: 1140px;
-	max-height: 342px;
+#reviewer-name {
+	font-size: 16px;
+	font-weight: 500;
+	font-family: "Inter", sans-serif;
+	color: #757575;
+}
+
+#reviewer-date {
+	font-size: 16px;
+	font-weight: 500;
+	font-family: "Inter", sans-serif;
+	color: #b3b3b3;
 }
 
 #what {
@@ -176,18 +194,16 @@ h1 {
 #fifth {
 	display: flex;
 	max-width: 1140px;
-	max-height: fit-content;
+	max-height: 632px;
 	margin-top: 137px;
 	margin-left: 150px;
 	margin-right: 150px;
 	padding-top: 71px;
 	padding-bottom: 71px;
 	background-color: #f5f8ff;
-	gap: 60px;
 }
 
 #left {
-	flex: 1;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -198,11 +214,11 @@ h1 {
 	font-weight: bold;
 	font-family: "Raleway", sans-serif;
 	color: rgb(0, 0, 0);
-	line-height: 120%;
 }
 
 #right {
-	flex: 1;
+	width: 497px;
+	height: 490px;
 }
 
 form {
@@ -210,17 +226,29 @@ form {
 	flex-direction: column;
 	justify-content: center;
 	gap: 19px;
-	max-width: 497px;
-	max-height: 490px;
+}
+
+.form-group {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+label {
+	font-size: 18px;
+	font-weight: 500;
+	font-family: "Inter", sans-serif;
+	color: #000000;
 }
 
 input,
 textarea {
-	padding: 12px;
-	border: 1px solid #ccc;
-	border-radius: 8px;
-	font-size: 14px;
-	font-family: sans-serif;
+	padding: 20px 32px;
+	border: 1px solid #d6dded;
+	border-radius: 10px;
+	font-size: 20px;
+	font-family: "Inter", sans-serif;
+	color: rgba(0, 0, 0, 0.5);
 }
 
 textarea {

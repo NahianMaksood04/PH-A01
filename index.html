@@ -67,7 +67,7 @@
 			<section id="third">
 				<div><p id="what">What our user says</p></div>
 				<div id="all-review">
-					<div id="review">
+					<div class="review">
 						<div>
 							<img src="Assets/icon-star.png" alt="star" />
 							<img src="Assets/icon-star.png" alt="star" />
@@ -90,11 +90,11 @@
 							/>
 							<div>
 								<p id="reviewer-name">Reviewer Name</p>
-								<p>Date</p>
+								<p id="reviewer-date">Date</p>
 							</div>
 						</div>
 					</div>
-					<div id="review">
+					<div class="review">
 						<div>
 							<img src="Assets/icon-star.png" alt="star" />
 							<img src="Assets/icon-star.png" alt="star" />
@@ -117,11 +117,11 @@
 							/>
 							<div>
 								<p id="reviewer-name">Reviewer Name</p>
-								<p>Date</p>
+								<p id="reviewer-date">Date</p>
 							</div>
 						</div>
 					</div>
-					<div id="review">
+					<div class="review">
 						<div>
 							<img src="Assets/icon-star.png" alt="star" />
 							<img src="Assets/icon-star.png" alt="star" />
@@ -144,7 +144,7 @@
 							/>
 							<div>
 								<p id="reviewer-name">Reviewer Name</p>
-								<p>Date</p>
+								<p id="reviewer-date">Date</p>
 							</div>
 						</div>
 					</div>
@@ -169,27 +169,36 @@
 				</div>
 				<div id="right">
 					<form>
-						<label for="email">Email</label>
-						<input
-							type="email"
-							name="email"
-							placeholder="example@email.com"
-							required
-						/>
-						<label for="username">Name</label>
-						<input
-							type="text"
-							name="username"
-							placeholder="full name"
-							required
-						/>
-						<label for="message">Message</label>
-						<textarea
-							placeholder="write your message..."
-							name="message"
-							rows="4"
-						></textarea>
-						<button class="remove-default btn">Get in Touch</button>
+						<div class="form-group">
+							<label for="email">Email</label>
+							<input
+								type="email"
+								name="email"
+								id="email"
+								placeholder="example@email.com"
+								required
+							/>
+						</div>
+						<div class="form-group">
+							<label for="username">Name</label>
+							<input
+								type="text"
+								name="username"
+								id="username"
+								placeholder="Full name"
+								required
+							/>
+						</div>
+						<div class="form-group">
+							<label for="message">Message</label>
+							<textarea
+								name="message"
+								id="message"
+								placeholder="Write your message..."
+								rows="4"
+							></textarea>
+						</div>
+						<button class="btn" type="submit">Get in Touch</button>
 					</form>
 				</div>
 			</section>
@@ -204,7 +213,7 @@
 				</p>
 				<div id="footer-end">
 					<p>
-						<a href="http://www.google.com" remove-default>Home</a>
+						<a href="http://www.google.com" target="_blank" remove-default>Home</a>
 					</p>
 					<p>About</p>
 					<p>How it Works</p>
