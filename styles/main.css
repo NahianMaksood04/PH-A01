@@ -1,5 +1,6 @@
 body {
 	background-color: #f5f8ff;
+	height: 10000px;
 }
 
 #first {
@@ -75,4 +76,49 @@ body {
 	font-weight: normal;
 	font-family: "Inter", sans-serif;
 	color: rgba(0, 0, 0, 0.5);
+}
+
+#review{
+	background-color: rgba(255, 255, 255, 0.5);
+	border: #F2EDED solid 1px;
+	border-radius: 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content:flex-start;
+	align-items: flex-start;
+	padding: 24px;
+	width: 366.67px;
+	height: 243px;
+	gap: 24px;
+
+}
+
+#reviewer{
+	display: flex;
+	flex-direction: row;
+	
+	
+}
+
+h1{
+	font-size: 24px;
+	font-weight:600px;
+	font-family: "Inter", sans-serif;
+	color: #1E1E1E;
+	line-height: 140%;
+}
+
+#review-text{
+	font-size: 16px;
+	font-weight:normal;
+	font-family: "Inter", sans-serif;
+	color: #1E1E1E;
+	line-height: 140%;
+}
+
+#reviewer-text{
+	font-size: 16px;
+	font-weight:500px;
+	font-family: "Inter", sans-serif;
+	color: #757575;
 }
