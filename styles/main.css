@@ -1,6 +1,5 @@
 body {
 	background-color: #f5f8ff;
-	height: 10000px;
 }
 
 #first {
@@ -91,12 +90,12 @@ body {
 	gap: 24px;
 }
 
-#all-review{
+#all-review {
 	display: flex;
 	flex-direction: row;
-	align-items:center;
+	align-items: center;
 	justify-content: space-around;
-	margin-top:50px;
+	margin-top: 50px;
 }
 
 #reviewer {
@@ -117,7 +116,6 @@ h1 {
 	font-weight: normal;
 	font-family: "Inter", sans-serif;
 	color: #1e1e1e;
-	
 }
 
 #reviewer-text {
@@ -127,14 +125,14 @@ h1 {
 	color: #757575;
 }
 
-#third{
+#third {
 	margin-left: 151px;
 	margin-right: 149px;
 	max-width: 1140px;
 	max-height: 342px;
 }
 
-#what{
+#what {
 	font-size: 42px;
 	font-weight: bold;
 	font-family: "Raleway", sans-serif;
@@ -143,15 +141,14 @@ h1 {
 	margin-top: 137px;
 }
 
-
-#fourth{
+#fourth {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	background-color: white;
 	border-radius: 14px;
-	max-width:1140px;
+	max-width: 1140px;
 	max-height: fit-content;
 	margin-top: 137px;
 	margin-left: 151px;
@@ -160,7 +157,7 @@ h1 {
 	gap: 20px;
 }
 
-#ready{
+#ready {
 	font-size: 50px;
 	font-weight: bold;
 	font-family: "Raleway", sans-serif;
@@ -168,10 +165,65 @@ h1 {
 	line-height: 120%;
 }
 
-#this{
+#this {
 	font-size: 16px;
 	font-weight: normal;
 	font-family: "Inter", sans-serif;
 	color: rgba(0, 0, 0, 0.5);
 	line-height: 140%;
+}
+
+#fifth {
+	display: flex;
+	max-width: 1140px;
+	max-height: fit-content;
+	margin-top: 137px;
+	margin-left: 150px;
+	margin-right: 150px;
+	padding-top: 71px;
+	padding-bottom: 71px;
+	background-color: #f5f8ff;
+	gap: 60px;
+}
+
+#left {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#lets {
+	font-size: 97px;
+	font-weight: bold;
+	font-family: "Raleway", sans-serif;
+	color: rgb(0, 0, 0);
+	line-height: 120%;
+}
+
+#right {
+	flex: 1;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 19px;
+	max-width:497px;
+	max-height:490px ;
+}
+
+input,
+textarea {
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	font-size: 14px;
+	font-family: sans-serif;
+}
+
+textarea {
+	resize: none;
+	min-height: 100px;
 }
