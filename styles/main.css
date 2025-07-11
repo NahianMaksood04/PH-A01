@@ -210,8 +210,8 @@ form {
 	flex-direction: column;
 	justify-content: center;
 	gap: 19px;
-	max-width:497px;
-	max-height:490px ;
+	max-width: 497px;
+	max-height: 490px;
 }
 
 input,
